@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html.ico" type="image/x-ico">
+    <title>Historial del HTML</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>La creacion y nacimiento de HyperText Markup Language (HTML)</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Importancia del HTML</h2>
+    <hr>
+
+    <article class="container">
+        <h3>La vida del HTML</h3>
+        <img class="image" src="/assets/img/1.webp" alt="HTML como lenguaje">
+        <p><b> HTML (HyperText Markup Language)</b> es el lenguaje fundamental para crear páginas web. Se trata de un lenguaje
+            de marcado que define la estructura y el contenido de una página web, utilizando etiquetas y atributos
+            específicos. Los navegadores web interpretan este código y lo convierten en la página web que vemos en la
+            pantalla.</p>
+
+        <img class="image2" src="/assets/img/2.jpg" alt="Su importancia">
+        <p>El <b> lenguaje HTML </b>se fundamenta en la diferenciación como filosofía de desarrollo. Para añadir elementos
+            externos a una página como imágenes, vídeos o scripts, no se incrustan directamente en el código de la
+            página. En su lugar, se realiza una referencia a la ubicación de cada elemento mediante texto. De este modo,
+            la página web contiene solamente texto, dejando al navegador web (intérprete del código) la labor de unir
+            todos los elementos y visualizar la página final. Al ser un estándar, HTML pretende ser un lenguaje que
+            permita que cualquier página web escrita en una determinada versión, pueda ser interpretada de manera
+            uniforme (siguiendo el estándar) por cualquier navegador web actualizado.</p>
+
+        <img class="image" src="/assets/img/3.png" alt="Importante">
+        <p justity>A lo largo de sus diferentes versiones, <b>HTML</b> ha experimentado la incorporación y eliminación de
+            distintas
+            características, con el propósito de optimizar su eficiencia y facilitar el desarrollo de páginas web
+            compatibles con varios navegadores y plataformas <i> (PC de escritorio, portátiles, teléfonos inteligentes,
+            tabletas, etc.)</i> No obstante, para interpretar adecuadamente una nueva versión de HTML, los desarrolladores
+            de navegadores web deben incorporar estos cambios, y los usuarios debe ser capaces de usar la nueva versión
+            del navegador con todas las actualizaciones aplicadas.</p>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+
+</body>
+
+</html>
